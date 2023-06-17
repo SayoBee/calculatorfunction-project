@@ -1,0 +1,57 @@
+.outside{
+    width: 27%;
+    padding: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px rgb(134, 125, 125);
+}
+    h1{
+        color: white;
+        text-shadow: 2px 2px 4px blue;
+        text-align: center;
+    }
+    input{
+        width: 100%;
+    }
+.firstrow button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 19px;
+    width: 23%;
+}
+.secondrow button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 19px;
+    width: 23%;
+}
+.thirdrow button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 19px;
+    width: 23%;
+}
+.fourthrow button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 19px;
+    width: 23%;
+}
+.last button{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 19px;
+    width: 23%;
+}

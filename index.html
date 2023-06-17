@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outside">
+        <h1>Calculator</h1>
+        <div><input type="text" id="cal" placeholder="0"></div><br>
+        <div class="firstrow">
+            <button onclick="caller1()"><b>9</b></button>
+            <button onclick="caller2()"><b>/</b></button>
+            <button onclick="caller3()"><b>%</b></button>
+            <button onclick="caller4()"><b>**</b></button>
+        </div><br>
+        <div class="secondrow">
+            <button onclick="caller5()"><b>6</b></button>
+            <button onclick="caller6()"><b>7</b></button>
+            <button onclick="caller7()"><b>8</b></button>
+            <button onclick="caller8()"><b>*</b></button>
+        </div><br>
+        <div class="thirdrow">
+            <button onclick="caller9()"><b>3</b></button>
+            <button onclick="caller10()"><b>4</b></button>
+            <button onclick="caller11()"><b>5</b></button>
+            <button onclick="caller12()"><b>+</b></button>
+        </div><br>
+        <div class="fourthrow">
+            <button onclick="caller13()"><b>0</b></button>
+            <button onclick="caller14()"><b>1</b></button>
+            <button onclick="caller15()"><b>2</b></button>
+            <button onclick="caller16()"><b>=</b></button>
+        </div><br>
+        <div class="last">
+            <button onclick="caller17()"><b>C</b></button>
+        </div>
+    </div>
+    <script>
+
+   
+    function caller1(){
+        document.getElementById('cal').value +='9'
+    }
+    function caller2(){
+        document.getElementById('cal').value +='/'
+    }
+    function caller3(){
+        document.getElementById('cal').value +='%'
+    }
+    function caller4(){
+        document.getElementById('cal').value +='**'
+    }
+    function caller5(){
+        document.getElementById('cal').value +='6'
+    }
+    function caller6(){
+        document.getElementById('cal').value +='7'
+    }
+    function caller7(){
+        document.getElementById('cal').value +='8'
+    }
+    function caller8(){
+        document.getElementById('cal').value +='*'
+    }
+    function caller9(){
+        document.getElementById('cal').value +='3'
+    }
+    function caller10(){
+        document.getElementById('cal').value +='4'
+    }
+    function caller11(){
+        document.getElementById('cal').value +='5'
+    }
+    function caller12(){
+        document.getElementById('cal').value +='+'
+    }
+    function caller13(){
+        document.getElementById('cal').value +='0'
+    }
+    function caller14(){
+        document.getElementById('cal').value +='1'
+    }
+    function caller15(){
+        document.getElementById('cal').value +='2'
+    }
+    function caller16(){
+        document.getElementById('cal').value = eval(document.getElementById("cal").value)
+    }
+    function caller17(){
+        document.getElementById('cal').value = ''
+    }
+    </script>
+</html>
