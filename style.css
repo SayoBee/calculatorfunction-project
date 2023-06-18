@@ -55,3 +55,11 @@
     padding: 3px 19px;
     width: 23%;
 }
+@media only screen and (max-width: 768px) {
+    .outside{
+        width: 68%;
+        margin: 0;
+        /* padding: 0; */
+    }
+
+}
